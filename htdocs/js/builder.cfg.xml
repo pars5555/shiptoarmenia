@@ -60,13 +60,10 @@
             <files>
                 <file doc="true">ngs/loads/AbstractLoad.class.js</file>
                 <file>ngs/loads/main/MainLoad.class.js</file>
+                <file>ngs/loads/main/HomeLoad.class.js</file>
                 				
                 <file>ngs/loads/admin/AdminMainLoad.class.js</file>
                 <file>ngs/loads/admin/AdminHomeLoad.class.js</file>
-                <file>ngs/loads/admin/AdminDentistsLoad.class.js</file>
-                <file>ngs/loads/dentist/DentistMainLoad.class.js</file>
-                <file>ngs/loads/dentist/DentistHomeLoad.class.js</file>
-                <file>ngs/loads/dentist/DentistCalendarLoad.class.js</file>
                
                 
             </files>
