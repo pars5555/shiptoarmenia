@@ -8,11 +8,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Ship To Armenia</a>
+            <a class="navbar-brand" href="{$SITE_PATH}/">Ship To Armenia</a>
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav pull-right">
               <li class="active"><a href="#">Home</a></li>
+              <li class="active"><a id="priceBtn" href="{$SITE_PATH}/price">Prices</a></li>
               <li><a href="#">About</a></li>
               <li><a href="#">Contact</a></li>
               {if $ns.userLevel === $ns.userGroupsUser}
@@ -21,7 +22,7 @@
               	</li>
               {else}
              	 <li>
-             	 	<a href="#">
+             	 	<a id="loginBtn" href="javascript:void(0);">
              	 		Login
          	 		</a>
      	 		</li>
@@ -31,3 +32,25 @@
         </div><!--/.container-fluid -->
       </nav>
 </header>
+<div id="loginBlock" style="display: none;" class="login-block-wrapper">
+	<div class="f_close_pop_up login_close_btn">
+		<i class="glyphicon glyphicon-remove-circle"></i>
+	</div>
+	<h2>Login</h2>
+	<div class="form-group">
+		<label>Email</label>
+		<input type="text" class="form-control" />
+	</div>
+	<div class="form-group">
+		<label>Password</label>
+		<input type="password" class="form-control" />
+	</div>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="#" class="sta-button block orange">LOGIN</a>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+			<a href="#" class="sta-button block orange">SIGN UP</a>
+		</div>
+	</div>
+</div>

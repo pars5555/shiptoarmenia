@@ -26,12 +26,13 @@ ngs.HomeLoad = Class.create(ngs.AbstractLoad, {
 			jQuery("#staBottomInfoImg").addClass("animated");
 		}
 		jQuery(window).scroll(function(){
-			if (jQuery("body,html").scrollTop() >= parseInt(jQuery("#staInfoImg").offset().top) - parseInt(jQuery("#staInfoImg").height())) {
+			if (jQuery("body, html").scrollTop() >= parseInt(jQuery("#staInfoImg").offset().top) - parseInt(jQuery("#staInfoImg").height())) {
 				jQuery("#staInfoImg").addClass("animated");
 			}
 		});
 		jQuery(window).scroll(function(){
-			if(jQuery("body,html").scrollTop() >= parseInt(jQuery("#staBottomInfoImg").offset().top) - parseInt(jQuery("#staBottomInfoImg").height())){
+			if(jQuery("body, html").scrollTop() >= parseInt(jQuery("#staBottomInfoImg").offset().top) - parseInt(jQuery("#staBottomInfoImg").height())){
+				console.log(1);
 				jQuery("#staBottomInfoImg").addClass("animated");
 			}
 		});

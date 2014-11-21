@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2014-11-21 11:06:02
+<?php /* Smarty version Smarty-3.1.11, created on 2014-11-21 16:52:41
          compiled from "E:\xampp\htdocs\shiptoarmenia\templates\main\home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:28807546f1c9a27c243-33132755%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2134546f6dd99c4970-58557897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '472d797c32a7d616ebdcec8e981161f2f3babe37' => 
     array (
       0 => 'E:\\xampp\\htdocs\\shiptoarmenia\\templates\\main\\home.tpl',
-      1 => 1416567961,
+      1 => 1416588760,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '28807546f1c9a27c243-33132755',
+  'nocache_hash' => '2134546f6dd99c4970-58557897',
   'function' => 
   array (
   ),
@@ -21,23 +21,23 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_546f1c9a2d1335_20194122',
+  'unifunc' => 'content_546f6dd9a54a13_39121699',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_546f1c9a2d1335_20194122')) {function content_546f1c9a2d1335_20194122($_smarty_tpl) {?><div class="main-content-wrapper">
+<?php if ($_valid && !is_callable('content_546f6dd9a54a13_39121699')) {function content_546f6dd9a54a13_39121699($_smarty_tpl) {?><div id="mainContentWrapper" class="main-content-wrapper">
 	<div class="sta-top">
 		<div class="background-img">
 			<div class="container">
-				<div class="col-md-6">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<div class="left-img">
 						<img class="f_init_blocks" alt="" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/finge-600-21.png" style="max-height: 540px;">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<div class="right-text f_init_blocks">
 						<h2>Get high conversion rates on landing pages</h2>
 						<p>We help you get more leads by creating and managing high performing landing pages.</p>
-						<a href="#" class="sta-button orange">Sign in</a>
+						<a href="#" class="sta-button orange">SIGN IN</a>
 					</div>
 				</div>
 			</div>
@@ -52,39 +52,39 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</div>
 		</div>
 		<div class="container sta-for-ct">
-			<div class="col-md-4 text-center">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
 				<div class="top-img">
 					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/specialist_image_2.jpg" />
 				</div>
-				<p><strong>Boost Effect</strong></p>
-				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
+				<p><strong>SAFE</strong></p>
+				<p>Holding safety as a value can mean an in-house culture of safety to protect the well-being of employees or customers who use a company’s products and services. A clinic might hold the safety and health of its workers as a central value using standardized protocols and training to avoid accidents. Companies offering children’s products should hold safety as a value to ensure child-safe products.</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
 				<div class="top-img">
 					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/specialist_image_2.jpg" />
 				</div>
-				<p><strong>Boost Effect</strong></p>
-				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
+				<p><strong>RELIABLE</strong></p>
+				<p>Reliability implies many things. Reliable products must possess quality. They engender trust in their performance and their performance is predictable. Consumers feel secure and relaxed when given reliable goods and services. Reliability might also have a time dimension -- a regular order arriving “just like clockwork,” for instance. Zeroing in on why and how reliability benefits customers can make this value easier to demonstrate.</p>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-center">
 				<div class="top-img">
 					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/specialist_image_2.jpg" />
 				</div>
-				<p><strong>Boost Effect</strong></p>
-				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
+				<p><strong>SPEEDY</strong></p>
+				<p>Delivery services, fast food, Internet providers, -- they belong to different industries, yet all need to provide fast service to their customers. An owner might encourage efficiency and better processes to gain an edge on competitors and make the company one that best exemplifies speed.</p>
 			</div>
 		</div>
 	</div>
 	<div class="sta-info">
 		<div class="container">
-			<div class="col-md-6">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<h3>Get high conversion rates for all screen sizes</h3>
 				<p>Make your custamer experience a good one for all screen sizes. You might even run mobile marketing campaigns using, use QR-codes or similar. To get the highest possible conversion rates you get landing pages tailored to both mobile and desktop visitors. Interesting fact: Based on experience conversion rates are higher on mobile than desktop. We can help you make that happen.</p>
 			</div>
-			<div class="col-md-6">
+			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div  class="sta-info-img">
 					<img id="staInfoImg" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/iPadmini-iPhone5s_510px1.png"/>
@@ -124,10 +124,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</div>
 	<div class="sta-co-partner">
 		<div class="container text-center">
-			<h3>Custamers we have worked with</h3>
+			<h3>Customers we have worked with</h3>
 			<p>We work with companies of all sizes. Here are some of our happy custamers that we have increased conversion rates for.</p>
 			<div class="container-fluid">
-				<div class="col-md-3">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 					<a href="#">
 						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/danske-bank.png" />
@@ -139,13 +139,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 /img/danske-bank.png" />
 					</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 					<a href="#">
 						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/danske-bank.png" />
 					</a>
 				</div>
-				<div class="col-md-3">
+				<div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
 					<a href="#">
 						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
 /img/danske-bank.png" />
