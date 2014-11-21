@@ -248,8 +248,10 @@ a:focus {
     opacity:0;
 }
 .main-content-wrapper  .sta-bottom-info .background-img .bottom-img img.animated  {
-	animation-duration: 1.0s;
-  	animation-name: moveOpacityFromBottom;
+  	-webkit-animation: moveOpacityFromBottom 1.0s forwards; /* Safari 4+ */
+  	-moz-animation:    moveOpacityFromBottom 1.0s forwards; /* Fx 5+ */
+  	-o-animation:      moveOpacityFromBottom 1.0s forwards; /* Opera 12+ */
+  	animation:         moveOpacityFromBottom 1.0s forwards; /* IE 10+, Fx 29+ */
 }
 .main-content-wrapper  .sta-co-partner {
 	padding:70px 0px;	
