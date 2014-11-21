@@ -1,31 +1,36 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2014-11-21 09:55:08
+<?php /* Smarty version Smarty-3.1.11, created on 2014-11-21 11:06:02
          compiled from "E:\xampp\htdocs\shiptoarmenia\templates\main\home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:16761546f0bfc6e82a6-03046293%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:28807546f1c9a27c243-33132755%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '472d797c32a7d616ebdcec8e981161f2f3babe37' => 
     array (
       0 => 'E:\\xampp\\htdocs\\shiptoarmenia\\templates\\main\\home.tpl',
-      1 => 1416563698,
+      1 => 1416567961,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '16761546f0bfc6e82a6-03046293',
+  'nocache_hash' => '28807546f1c9a27c243-33132755',
   'function' => 
   array (
   ),
+  'variables' => 
+  array (
+    'SITE_PATH' => 0,
+  ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_546f0bfc71ac65_43152279',
+  'unifunc' => 'content_546f1c9a2d1335_20194122',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_546f0bfc71ac65_43152279')) {function content_546f0bfc71ac65_43152279($_smarty_tpl) {?><div class="main-content-wrapper">
+<?php if ($_valid && !is_callable('content_546f1c9a2d1335_20194122')) {function content_546f1c9a2d1335_20194122($_smarty_tpl) {?><div class="main-content-wrapper">
 	<div class="sta-top">
 		<div class="background-img">
 			<div class="container">
 				<div class="col-md-6">
 					<div class="left-img">
-						<img class="f_init_blocks" alt="" src="images/finge-600-21.png" style="max-height: 540px;">
+						<img class="f_init_blocks" alt="" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/finge-600-21.png" style="max-height: 540px;">
 					</div>
 				</div>
 				<div class="col-md-6">
@@ -49,21 +54,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 		<div class="container sta-for-ct">
 			<div class="col-md-4 text-center">
 				<div class="top-img">
-					<img src="images/specialist_image_2.jpg" />
+					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/specialist_image_2.jpg" />
 				</div>
 				<p><strong>Boost Effect</strong></p>
 				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
 			</div>
 			<div class="col-md-4 text-center">
 				<div class="top-img">
-					<img src="images/specialist_image_2.jpg" />
+					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/specialist_image_2.jpg" />
 				</div>
 				<p><strong>Boost Effect</strong></p>
 				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
 			</div>
 			<div class="col-md-4 text-center">
 				<div class="top-img">
-					<img src="images/specialist_image_2.jpg" />
+					<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/specialist_image_2.jpg" />
 				</div>
 				<p><strong>Boost Effect</strong></p>
 				<p>We help you with external landing pages designed for one specific goal. You’ll get higher conversion rates and in return.</p>
@@ -78,18 +86,38 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</div>
 			<div class="col-md-6">
 				<div  class="sta-info-img">
-					<img id="staInfoImg" src="images/iPadmini-iPhone5s_510px1.png"/>
+					<img id="staInfoImg" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/iPadmini-iPhone5s_510px1.png"/>
 				</div>
 			</div>
 		</div>
 	</div>
 	<div class="sta-bottom-info">
+		<div class="triangle-block">
+			<div class="left-block">
+				<div class="tr-bl">
+					
+				</div>
+				<div class="triangle">
+					
+				</div>
+			</div>
+			<div class="right-block">
+				<div class="tr-bl">
+					
+				</div>
+				<div class="triangle">
+					
+				</div>
+			</div>
+		</div>
 		<div class="background-img">
 			<div class="container text-center sta-bottom-info-ct">
 				<h3>A/B testing built on solid a hypothesis</h3>
 				<p>Setting up the ‘perfect’ landing page based on experience is only half the job. There is no perfect landing page. That’s why we always test two versions of your landing pages against each other once your campaign start. With A/B testing, also called split testing, you’ll be able find the best performer – and get dramatical increase in results. The below example shows a test where a long vs a short version was tested.</p>
 				<div class="bottom-img">
-					<img id="staBottomInfoImg"  alt="A/B test (spilt test)" src="images/signicat-ipad-ab1.png">
+					<img id="staBottomInfoImg"  alt="A/B test (spilt test)" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/signicat-ipad-ab1.png">
 				</div>
 			</div>
 		</div>
@@ -101,22 +129,26 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="container-fluid">
 				<div class="col-md-3">
 					<a href="#">
-						<img src="images/danske-bank.png" />
+						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/danske-bank.png" />
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="#">
-						<img src="images/danske-bank.png" />
+						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/danske-bank.png" />
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="#">
-						<img src="images/danske-bank.png" />
+						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/danske-bank.png" />
 					</a>
 				</div>
 				<div class="col-md-3">
 					<a href="#">
-						<img src="images/danske-bank.png" />
+						<img src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
+/img/danske-bank.png" />
 					</a>
 				</div>
 			</div>
