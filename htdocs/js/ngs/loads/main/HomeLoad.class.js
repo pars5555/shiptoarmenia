@@ -15,9 +15,30 @@ ngs.HomeLoad = Class.create(ngs.AbstractLoad, {
         return "home";
     },
     afterLoad: function() {
-      
-    }
-    
+      this.initBlockAnimation();
+      this.doBlocksAnimation();
+    },
+    doBlocksAnimation: function() {
+		if (jQuery("body").scrollTop() >= parseInt(jQuery("#staInfoImg").offset().top) - parseInt(jQuery("#staInfoImg").height())) {
+			jQuery("#staInfoImg").addClass("animated");
+		}
+		if(jQuery("body").scrollTop() >= parseInt(jQuery("#staBottomInfoImg").offset().top) - parseInt(jQuery("#staBottomInfoImg").height())){
+			jQuery("#staBottomInfoImg").addClass("animated");
+		}
+		jQuery(window).scroll(function(){
+			if (jQuery("body").scrollTop() >= parseInt(jQuery("#staInfoImg").offset().top) - parseInt(jQuery("#staInfoImg").height())) {
+				jQuery("#staInfoImg").addClass("animated");
+			}
+		});
+		jQuery(window).scroll(function(){
+			if(jQuery("body").scrollTop() >= parseInt(jQuery("#staBottomInfoImg").offset().top) - parseInt(jQuery("#staBottomInfoImg").height())){
+				jQuery("#staBottomInfoImg").addClass("animated");
+			}
+		});
+	},
+	initBlockAnimation: function() {
+		jQuery(".f_init_blocks").addClass("animated");
+	}
 
 
 });
