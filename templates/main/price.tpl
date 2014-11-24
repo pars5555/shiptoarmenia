@@ -1,4 +1,10 @@
-<div class="price-wrapper">
+<div class="price-wrapper container">
+	<div class="price-info-text">
+		<h2>Price Info</h2>
+		<p>Info about price Info about price Info about price Info about price Info about price
+			Info about priceInfo about priceInfo about priceInfo about priceInfo about priceInfo about price
+			Info about priceInfo about priceInfo about priceInfo about priceInfo about priceInfo about price</p>
+	</div>
 	<table cellspacing='0'> <!-- cellspacing='0' is important, must stay -->
 		<tr>
 			<th>Shipping Details</th>

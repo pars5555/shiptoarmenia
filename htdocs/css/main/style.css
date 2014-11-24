@@ -258,6 +258,9 @@ table tr:hover td{
     padding-top: 110px;
 	overflow:hidden;
 	min-height:280px;
+	background-image:url("../../img/shutterstock_183227981.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 .main-content-wrapper .sta-top .background-img .left-img{
 	
@@ -272,6 +275,7 @@ table tr:hover td{
   	animation:         moveOpacityAnimation 1.5s forwards; /* IE 10+, Fx 29+ */
 }
 .main-content-wrapper .sta-top .background-img .right-text{
+	color:#fff;
 }
 .main-content-wrapper .sta-top .background-img .right-text.animated{
 	-webkit-animation: opacityAnimation 1.7s  forwards; /* Safari 4+ */

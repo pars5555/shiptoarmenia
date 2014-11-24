@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<div class="left-img">
-						<img class="f_init_blocks" alt="" src="{$SITE_PATH}/img/finge-600-21.png" style="max-height: 540px;">
+						<img class="f_init_blocks" alt="" src="{$SITE_PATH}/img/boy.png" style="max-height: 540px;">
 					</div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -57,7 +57,7 @@
 			</div>
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div  class="sta-info-img">
-					<img id="staInfoImg" src="{$SITE_PATH}/img/iPadmini-iPhone5s_510px1.png"/>
+					<img id="staInfoImg" src="{$SITE_PATH}/img/girl_mod.png"/>
 				</div>
 			</div>
 		</div>

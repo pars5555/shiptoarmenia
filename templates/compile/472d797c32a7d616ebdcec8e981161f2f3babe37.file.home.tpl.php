@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.11, created on 2014-11-21 16:52:41
+<?php /* Smarty version Smarty-3.1.11, created on 2014-11-24 11:54:52
          compiled from "E:\xampp\htdocs\shiptoarmenia\templates\main\home.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:2134546f6dd99c4970-58557897%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:438454731c8c17e531-43063036%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '472d797c32a7d616ebdcec8e981161f2f3babe37' => 
     array (
       0 => 'E:\\xampp\\htdocs\\shiptoarmenia\\templates\\main\\home.tpl',
-      1 => 1416588760,
+      1 => 1416830090,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '2134546f6dd99c4970-58557897',
+  'nocache_hash' => '438454731c8c17e531-43063036',
   'function' => 
   array (
   ),
@@ -21,16 +21,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.11',
-  'unifunc' => 'content_546f6dd9a54a13_39121699',
+  'unifunc' => 'content_54731c8c1d1f55_05785875',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_546f6dd9a54a13_39121699')) {function content_546f6dd9a54a13_39121699($_smarty_tpl) {?><div id="mainContentWrapper" class="main-content-wrapper">
+<?php if ($_valid && !is_callable('content_54731c8c1d1f55_05785875')) {function content_54731c8c1d1f55_05785875($_smarty_tpl) {?><div id="mainContentWrapper" class="main-content-wrapper">
 	<div class="sta-top">
 		<div class="background-img">
 			<div class="container">
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 					<div class="left-img">
 						<img class="f_init_blocks" alt="" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
-/img/finge-600-21.png" style="max-height: 540px;">
+/img/boy.png" style="max-height: 540px;">
 					</div>
 				</div>
 				<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
@@ -87,7 +87,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
 				<div  class="sta-info-img">
 					<img id="staInfoImg" src="<?php echo $_smarty_tpl->tpl_vars['SITE_PATH']->value;?>
-/img/iPadmini-iPhone5s_510px1.png"/>
+/img/girl_mod.png"/>
 				</div>
 			</div>
 		</div>
